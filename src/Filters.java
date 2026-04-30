@@ -20,15 +20,23 @@ public class Filters {
 
     
     public void HistogramFilter(String outputFile, int value) throws IOException {
+        Color[][] tmp = histogramEqualizedImage(value);
+        int[] hist = new int[256];
+        // Write the computed image to disk
+        Utils.writeImage(tmp, outputFile);
+    }
+
+    /**
+     * Compute histogram-equalized image and return it (no file IO).
+     * This allows benchmarking the CPU-bound part separately from image write.
+     */
+    public Color[][] histogramEqualizedImage(int value) {
         Color[][] tmp = Utils.copyImage(image);
         int[] hist = new int[256];
-        int total_pixels = tmp.length*tmp[0].length;
-        System.out.println("Total pixels: "+total_pixels);
+        int total_pixels = tmp.length * tmp[0].length;
         // Runs through entire matrix and computes luminosity
         for (int i = 0; i < tmp.length; i++) {
             for (int j = 0; j < tmp[i].length; j++) {
-
-                // fetches values of each pixel
                 Color pixel = tmp[i][j];
                 int r = pixel.getRed();
                 int g = pixel.getGreen();
@@ -50,30 +58,21 @@ public class Filters {
                 break;
             }
         }
-  
 
-        //Change each pixel of the output image
+        // Change each pixel of the output image
         for (int i = 0; i < tmp.length; i++) {
             for (int j = 0; j < tmp[i].length; j++) {
-
-            // fetches values of each pixel
-            Color pixel = tmp[i][j];
-            int r = pixel.getRed();
-            int g = pixel.getGreen();
-            int b = pixel.getBlue();
-            int lum = computeLuminosity(r, g, b);
-            //int newLum = 255*(cumulative[lum]/total_pixels);
-
-            double cdf = (double) cumulative[lum] / (double) (total_pixels - cdfMin);
-            int newLum = (int) Math.round(255.0 * cdf);
-
-           // if (newLum < 0) newLum = 0;
-            //if (newLum > 255) newLum = 255;
-            tmp[i][j] = new Color(newLum, newLum, newLum);
-
+                Color pixel = tmp[i][j];
+                int r = pixel.getRed();
+                int g = pixel.getGreen();
+                int b = pixel.getBlue();
+                int lum = computeLuminosity(r, g, b);
+                double cdf = (double) cumulative[lum] / (double) (total_pixels - cdfMin);
+                int newLum = (int) Math.round(255.0 * cdf);
+                tmp[i][j] = new Color(newLum, newLum, newLum);
             }
         }
-        Utils.writeImage(tmp, outputFile);
+        return tmp;
     }
 
     public int computeLuminosity(int r, int g, int b) {
