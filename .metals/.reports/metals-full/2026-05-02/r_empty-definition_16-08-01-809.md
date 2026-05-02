@@ -1,9 +1,20 @@
+error id: file://<WORKSPACE>/src/ApplyFilters.java:java/awt/Color#
+file://<WORKSPACE>/src/ApplyFilters.java
+empty definition using pc, found symbol in pc: java/awt/Color#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 189
+uri: file://<WORKSPACE>/src/ApplyFilters.java
+text:
+```scala
 import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadMXBean;
-import java.awt.Color;
+import java.awt.@@Color;
 
 public class ApplyFilters {
 
@@ -81,49 +92,21 @@ public class ApplyFilters {
         Color[][] parallelOut = filters.histogramEqualizedImageParallel(128, numThreads);
         long pEnd = System.nanoTime();
         double parallelWall = (pEnd - pStart) / 1e9;
-        System.out.printf("Parallel (manual-threads) wall time: %.4f s\n", parallelWall);
+        System.out.printf("Parallel wall time: %.4f s\n", parallelWall);
 
         double speedup = baselineWall / parallelWall;
         double efficiency = speedup / (double) numThreads;
-        System.out.printf("Speedup (sequential / parallel manual-threads): %.3f\n", speedup);
+        System.out.printf("Speedup (sequential / parallel): %.3f\n", speedup);
         System.out.printf("Efficiency (speedup / threads): %.3f\n", efficiency);
 
-        // Run thread-pool implementation
-        System.out.printf("\nRunning thread-pool version with %d threads...\n", numThreads);
-        filters.histogramEqualizedImageThreadPool(128, numThreads); // warmup
-        long tpStart = System.nanoTime();
-        Color[][] poolOut = filters.histogramEqualizedImageThreadPool(128, numThreads);
-        long tpEnd = System.nanoTime();
-        double poolWall = (tpEnd - tpStart) / 1e9;
-        System.out.printf("Parallel (thread-pool) wall time: %.4f s\n", poolWall);
-
-        double speedupPool = baselineWall / poolWall;
-        double efficiencyPool = speedupPool / (double) numThreads;
-        System.out.printf("Speedup (sequential / thread-pool): %.3f\n", speedupPool);
-        System.out.printf("Efficiency (speedup / threads): %.3f\n", efficiencyPool);
-
-        
-        // Correctness check: compare sequential vs non-pool parallel and vs thread-pool outputs
-        System.out.println();
-        Color[][] seqOut = filters.histogramEqualizedImage(128);
-        boolean eqManual = true;
-        outer:
-        for (int x = 0; x < seqOut.length; x++) {
-            for (int y = 0; y < seqOut[0].length; y++) {
-                if (!seqOut[x][y].equals(parallelOut[x][y])) { eqManual = false; break outer; }
-            }
-        }
-        System.out.println("Non-pool parallel output equals sequential output? " + (eqManual ? "YES" : "NO"));
-
-        boolean eqPool = true;
-        outer2:
-        for (int x = 0; x < seqOut.length; x++) {
-            for (int y = 0; y < seqOut[0].length; y++) {
-                if (!seqOut[x][y].equals(poolOut[x][y])) { eqPool = false; break outer2; }
-            }
-        }
-        System.out.println("Thread-pool output equals sequential output? " + (eqPool ? "YES" : "NO"));
         System.out.println("Done.");
     }
 
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: java/awt/Color#

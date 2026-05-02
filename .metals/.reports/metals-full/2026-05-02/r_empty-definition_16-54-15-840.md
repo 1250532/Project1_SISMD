@@ -1,3 +1,14 @@
+error id: file://<WORKSPACE>/src/ApplyFilters.java:_empty_/Filters#histogramEqualizedImageProducerConsumer#
+file://<WORKSPACE>/src/ApplyFilters.java
+empty definition using pc, found symbol in pc: _empty_/Filters#histogramEqualizedImageProducerConsumer#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 5671
+uri: file://<WORKSPACE>/src/ApplyFilters.java
+text:
+```scala
 import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
@@ -102,28 +113,50 @@ public class ApplyFilters {
         System.out.printf("Speedup (sequential / thread-pool): %.3f\n", speedupPool);
         System.out.printf("Efficiency (speedup / threads): %.3f\n", efficiencyPool);
 
-        
-        // Correctness check: compare sequential vs non-pool parallel and vs thread-pool outputs
+        // Quick correctness check: compare sequential vs thread-pool outputs pixel-by-pixel
         System.out.println();
         Color[][] seqOut = filters.histogramEqualizedImage(128);
-        boolean eqManual = true;
+        boolean equal = true;
         outer:
         for (int x = 0; x < seqOut.length; x++) {
             for (int y = 0; y < seqOut[0].length; y++) {
-                if (!seqOut[x][y].equals(parallelOut[x][y])) { eqManual = false; break outer; }
+                if (!seqOut[x][y].equals(poolOut[x][y])) { equal = false; break outer; }
             }
         }
-        System.out.println("Non-pool parallel output equals sequential output? " + (eqManual ? "YES" : "NO"));
+        System.out.println("Thread-pool output equals sequential output? " + (equal ? "YES" : "NO"));
 
-        boolean eqPool = true;
+        // Run producer-consumer implementation
+        int chunkSize = Math.max(1, filters.image.length / (availableProcessors * 4));
+        System.out.printf("\nRunning producer-consumer version with %d threads and chunkSize=%d...\n", numThreads, chunkSize);
+        filters.@@histogramEqualizedImageProducerConsumer(128, numThreads, chunkSize); // warmup
+        long pcStart = System.nanoTime();
+        Color[][] pcOut = filters.histogramEqualizedImageProducerConsumer(128, numThreads, chunkSize);
+        long pcEnd = System.nanoTime();
+        double pcWall = (pcEnd - pcStart) / 1e9;
+        System.out.printf("Producer-consumer wall time: %.4f s\n", pcWall);
+        double speedupPC = baselineWall / pcWall;
+        double efficiencyPC = speedupPC / (double) numThreads;
+        System.out.printf("Speedup (sequential / producer-consumer): %.3f\n", speedupPC);
+        System.out.printf("Efficiency (speedup / threads): %.3f\n", efficiencyPC);
+
+        // Correctness check
+        boolean eqPC = true;
         outer2:
         for (int x = 0; x < seqOut.length; x++) {
             for (int y = 0; y < seqOut[0].length; y++) {
-                if (!seqOut[x][y].equals(poolOut[x][y])) { eqPool = false; break outer2; }
+                if (!seqOut[x][y].equals(pcOut[x][y])) { eqPC = false; break outer2; }
             }
         }
-        System.out.println("Thread-pool output equals sequential output? " + (eqPool ? "YES" : "NO"));
+        System.out.println("Producer-consumer output equals sequential output? " + (eqPC ? "YES" : "NO"));
+
         System.out.println("Done.");
     }
 
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/Filters#histogramEqualizedImageProducerConsumer#

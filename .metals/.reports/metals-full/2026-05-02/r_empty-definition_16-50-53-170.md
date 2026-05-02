@@ -1,3 +1,14 @@
+error id: file://<WORKSPACE>/src/ApplyFilters.java:_empty_/Filters#histogramEqualizedImageParallel#
+file://<WORKSPACE>/src/ApplyFilters.java
+empty definition using pc, found symbol in pc: _empty_/Filters#histogramEqualizedImageParallel#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 3332
+uri: file://<WORKSPACE>/src/ApplyFilters.java
+text:
+```scala
 import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
@@ -76,7 +87,7 @@ public class ApplyFilters {
         int numThreads = availableProcessors; // default to number of cores
         System.out.printf("\nRunning parallel manual-thread version with %d threads...\n", numThreads);
         // warmup
-        filters.histogramEqualizedImageParallel(128, numThreads);
+        filters.@@histogramEqualizedImageParallel(128, numThreads);
         long pStart = System.nanoTime();
         Color[][] parallelOut = filters.histogramEqualizedImageParallel(128, numThreads);
         long pEnd = System.nanoTime();
@@ -102,28 +113,26 @@ public class ApplyFilters {
         System.out.printf("Speedup (sequential / thread-pool): %.3f\n", speedupPool);
         System.out.printf("Efficiency (speedup / threads): %.3f\n", efficiencyPool);
 
-        
-        // Correctness check: compare sequential vs non-pool parallel and vs thread-pool outputs
+        // Quick correctness check: compare sequential vs thread-pool outputs pixel-by-pixel
         System.out.println();
         Color[][] seqOut = filters.histogramEqualizedImage(128);
-        boolean eqManual = true;
+        boolean equal = true;
         outer:
         for (int x = 0; x < seqOut.length; x++) {
             for (int y = 0; y < seqOut[0].length; y++) {
-                if (!seqOut[x][y].equals(parallelOut[x][y])) { eqManual = false; break outer; }
+                if (!seqOut[x][y].equals(poolOut[x][y])) { equal = false; break outer; }
             }
         }
-        System.out.println("Non-pool parallel output equals sequential output? " + (eqManual ? "YES" : "NO"));
+        System.out.println("Thread-pool output equals sequential output? " + (equal ? "YES" : "NO"));
 
-        boolean eqPool = true;
-        outer2:
-        for (int x = 0; x < seqOut.length; x++) {
-            for (int y = 0; y < seqOut[0].length; y++) {
-                if (!seqOut[x][y].equals(poolOut[x][y])) { eqPool = false; break outer2; }
-            }
-        }
-        System.out.println("Thread-pool output equals sequential output? " + (eqPool ? "YES" : "NO"));
         System.out.println("Done.");
     }
 
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/Filters#histogramEqualizedImageParallel#
