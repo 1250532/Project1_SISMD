@@ -1,3 +1,14 @@
+error id: file://<WORKSPACE>/src/Filters.java:java/util/concurrent/ForkJoinTask#fork().
+file://<WORKSPACE>/src/Filters.java
+empty definition using pc, found symbol in pc: java/util/concurrent/ForkJoinTask#fork().
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 15107
+uri: file://<WORKSPACE>/src/Filters.java
+text:
+```scala
 
 import java.awt.Color;
 import java.io.IOException;
@@ -359,7 +370,7 @@ public class Filters {
                     int mid = (sx + ex) >>> 1;
                     HistTask left = new HistTask(sx, mid);
                     HistTask right = new HistTask(mid, ex);
-                    left.fork();
+                    left.@@fork();
                     int[] rightHist = right.compute();
                     int[] leftHist = left.join();
                     for (int i = 0; i < 256; i++) leftHist[i] += rightHist[i];
@@ -500,3 +511,10 @@ public class Filters {
     }
 
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: java/util/concurrent/ForkJoinTask#fork().
