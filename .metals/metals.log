@@ -5549,3 +5549,213 @@ java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not
 2026.05.12 21:30:02 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
 2026.05.12 21:30:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
 2026.05.12 21:30:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:46:06 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java
+2026.05.12 21:46:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:46:38 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java
+2026.05.12 21:46:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:46:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:46:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:46:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:46:38 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java
+2026.05.12 21:46:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:47:08 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:47:09 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 21:47:09 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:47:18 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:47:18 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 21:47:18 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:48:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:48:32 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:48:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:48:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:49:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:49:55 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:49:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:52:17 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:52:27 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java
+2026.05.12 21:52:27 WARN  Running javac-semanticdb failed for file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java. Output:
+
+2026.05.12 21:52:28 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java. Using fallback presentation compiler.
+2026.05.12 21:52:28 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java
+2026.05.12 21:57:22 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:57:22 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java
+2026.05.12 21:57:22 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:57:22 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:57:24 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java. Using fallback presentation compiler.
+2026.05.12 21:57:24 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java
+2026.05.12 21:57:24 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java. Using fallback presentation compiler.
+2026.05.12 21:57:26 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:57:26 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 21:57:26 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:57:26 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:57:27 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:57:27 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:57:27 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:58:15 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:58:15 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 21:58:15 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:58:15 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:58:15 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:58:18 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:58:18 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:58:18 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:04:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:04:31 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:04:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:04:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:04:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:04:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:04:39 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java. Using fallback presentation compiler.
+2026.05.12 22:04:39 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java
+2026.05.12 22:04:39 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java. Using fallback presentation compiler.
+2026.05.12 22:04:41 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java. Using fallback presentation compiler.
+2026.05.12 22:05:17 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java. Using fallback presentation compiler.
+2026.05.12 22:05:17 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java
+2026.05.12 22:05:17 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java. Using fallback presentation compiler.
+2026.05.12 22:05:17 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java. Using fallback presentation compiler.
+2026.05.12 22:06:30 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:07:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java. Using fallback presentation compiler.
+2026.05.12 22:07:36 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:07:36 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 22:07:36 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ImplRunner.java. Using fallback presentation compiler.
+2026.05.12 22:07:36 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java
+2026.05.12 22:07:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:07:38 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:07:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:07:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:07:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:07:42 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:07:50 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:07:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 22:07:51 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 22:07:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 22:07:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 22:08:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 22:08:06 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:06 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:08:06 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:06 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:06 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:14 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:15 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:16 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:17 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:17 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:19 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:19 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:22 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:22 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:22 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:24 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:24 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:25 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:25 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:25 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:08:27 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:08:27 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:02 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:12:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:03 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:12:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:04 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:30 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:34 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:12:44 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:45 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:12:58 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:58 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:58 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:12:58 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:13:00 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:13:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:13:19 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:13:19 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:13:20 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:13:19 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:20:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:20:03 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:20:04 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:20:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:26:59 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:26:59 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:26:59 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:26:59 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 22:27:01 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 22:27:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 22:27:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 22:27:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 22:27:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 22:27:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 22:27:04 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:04 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:27:04 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:04 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:09 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:27:09 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:19 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:19 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:19 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:20 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:20 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:20 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:20 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:20 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:20 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:21 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:23 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:27:23 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:24 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:25 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:28 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:30 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:30 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:35 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:27:35 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:40 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:40 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:40 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:41 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:40 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:40 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:41 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:40 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:40 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:27:42 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:29:22 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:29:22 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:29:22 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:29:23 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:29:23 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:35:36 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:40:53 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:40:53 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 22:40:53 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:40:53 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 22:40:56 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 23:02:06 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.

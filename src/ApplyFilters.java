@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 import java.lang.management.ManagementFactory;
+import java.lang.management.GarbageCollectorMXBean;
 import com.sun.management.OperatingSystemMXBean;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -38,18 +39,19 @@ public class ApplyFilters {
         final int TRIALS = 7;
 
         Supplier<Color[][]> seqSupplier = () -> filters.histogramEqualizedImage(128);
-        MeasResult seqRes = measureImpl("sequential", seqSupplier, osBeanFinal, WARMUP, TRIALS, 1);
-        double baselineWall = seqRes.medianWall;
-        double seqProcCpu = seqRes.medianProc;
+    MeasResult seqRes = measureImpl("sequential", seqSupplier, osBeanFinal, WARMUP, TRIALS, 1);
+    double baselineWall = seqRes.medianWall; // ms
+    double seqProcCpu = seqRes.medianProc; // ms
         Color[][] seqOut = seqRes.sampleOut;
-        System.out.printf(Locale.US, "Sequential median wall time: %.6f s, proc_cpu=%.6f s\n", baselineWall, seqProcCpu);
+    System.out.printf(Locale.US, "Sequential median wall time: %.3f ms, proc_cpu=%.3f ms\n", baselineWall, seqProcCpu);
+    System.out.printf(Locale.US, "GC cycles during sequential run: %d, gc_total_pause_ms=%d ms\n", seqRes.gcCountDelta, seqRes.gcTimeDeltaMs);
 
     // End-to-end run (compute + write)
     System.out.println("Running one end-to-end (compute + write) run...");
     long start = System.nanoTime();
     filters.HistogramFilter("output_from_ApplyFilters.jpg", 128);
     long end = System.nanoTime();
-    System.out.printf("End-to-end wall time: %.4f s\n", (end - start) / 1e9);
+    System.out.printf("End-to-end wall time: %.3f ms\n", (end - start) / 1e6);
 
     // Generate histograms for input (source) and sequential output
     try {
@@ -93,7 +95,7 @@ public class ApplyFilters {
     }
 
     // Run parallel manual-thread implementation and compare
-    // default to 6 threads (but don't exceed available processors)
+   
     int numThreads = Math.min(12, availableProcessors);
         System.out.printf("\nRunning parallel manual-thread version with %d threads...\n", numThreads);
     Supplier<Color[][]> manualSupplier = () -> filters.histogramEqualizedImageParallel(128, numThreads);
@@ -102,7 +104,8 @@ public class ApplyFilters {
     double parallelProcCpu = manualRes.medianProc;
     double parallelCpuUtil = (parallelProcCpu > 0.0 && parallelWall > 0.0) ? (parallelProcCpu / (parallelWall * availableProcessors) * 100.0) : 0.0;
     Color[][] parallelOut = manualRes.sampleOut;
-    System.out.printf("Parallel (manual-threads) median wall time: %.6f s, proc_cpu=%.6f s, cpu_util=%.2f%%\n", parallelWall, parallelProcCpu, parallelCpuUtil);
+    System.out.printf("Parallel (manual-threads) median wall time: %.3f ms, proc_cpu=%.3f ms, cpu_util=%.2f%%\n", parallelWall, parallelProcCpu, parallelCpuUtil);
+    System.out.printf(Locale.US, "GC cycles during manual run: %d, gc_total_pause_ms=%d ms\n", manualRes.gcCountDelta, manualRes.gcTimeDeltaMs);
 
     double speedup = baselineWall / parallelWall;
     double efficiency = speedup / (double) numThreads * 100.0; // percentage
@@ -117,7 +120,8 @@ public class ApplyFilters {
     double poolProcCpu = poolRes.medianProc;
     double poolCpuUtil = (poolProcCpu > 0.0 && poolWall > 0.0) ? (poolProcCpu / (poolWall * availableProcessors) * 100.0) : 0.0;
     Color[][] poolOut = poolRes.sampleOut;
-    System.out.printf("Parallel (thread-pool) median wall time: %.6f s, proc_cpu=%.6f s, cpu_util=%.2f%%\n", poolWall, poolProcCpu, poolCpuUtil);
+    System.out.printf("Parallel (thread-pool) median wall time: %.3f ms, proc_cpu=%.3f ms, cpu_util=%.2f%%\n", poolWall, poolProcCpu, poolCpuUtil);
+    System.out.printf(Locale.US, "GC cycles during pool run: %d, gc_total_pause_ms=%d ms\n", poolRes.gcCountDelta, poolRes.gcTimeDeltaMs);
 
     double speedupPool = baselineWall / poolWall;
     double efficiencyPool = speedupPool / (double) numThreads * 100.0;
@@ -138,7 +142,8 @@ public class ApplyFilters {
         Color[][] forkOut = fjRes.sampleOut;
         double speedupFork = baselineWall / forkWall;
         double efficiencyFork = speedupFork / (double) numThreads * 100.0;
-        System.out.printf("Fork/Join median wall time: %.6f s, proc_cpu=%.6f s, cpu_util=%.2f%%\n", forkWall, forkProcCpu, forkCpuUtil);
+    System.out.printf("Fork/Join median wall time: %.3f ms, proc_cpu=%.3f ms, cpu_util=%.2f%%\n", forkWall, forkProcCpu, forkCpuUtil);
+    System.out.printf(Locale.US, "GC cycles during fork-join run: %d, gc_total_pause_ms=%d ms\n", fjRes.gcCountDelta, fjRes.gcTimeDeltaMs);
         System.out.printf("Speedup (sequential / fork-join): %.3f\n", speedupFork);
         System.out.printf("Efficiency (speedup / threads): %.3f%%\n", efficiencyFork);
 
@@ -182,7 +187,8 @@ public class ApplyFilters {
     double speedupCf = baselineWall / cfWall;
     double efficiencyCf = speedupCf / (double) numThreads * 100.0;
     Color[][] cfOut = cfRes.sampleOut;
-    System.out.printf("CompletableFuture median wall time: %.6f s, proc_cpu=%.6f s, cpu_util=%.2f%%\n", cfWall, cfProcCpu, cfCpuUtil);
+    System.out.printf("CompletableFuture median wall time: %.3f ms, proc_cpu=%.3f ms, cpu_util=%.2f%%\n", cfWall, cfProcCpu, cfCpuUtil);
+    System.out.printf(Locale.US, "GC cycles during completablefuture run: %d, gc_total_pause_ms=%d ms\n", cfRes.gcCountDelta, cfRes.gcTimeDeltaMs);
     System.out.printf("Speedup (sequential / completablefuture): %.3f\n", speedupCf);
     System.out.printf("Efficiency (speedup / threads): %.3f%%\n", efficiencyCf);
 
@@ -203,13 +209,13 @@ public class ApplyFilters {
         md.append("# Benchmark report\n\n");
         md.append(String.format(Locale.US, "Generated: %s\n\n", java.time.Instant.now().toString()));
         md.append(String.format(Locale.US, "**Hardware:** cores=%d, maxMemory=%.2f MB\n\n", availableProcessors, maxMemory / 1024.0 / 1024.0));
-        md.append("| impl | threads | best_wall_s | proc_cpu_s | cpu_util_pct | speedup_vs_seq | efficiency_pct |\n");
-        md.append("|---|---:|---:|---:|---:|---:|---:|\n");
+    md.append("| impl | threads | best_wall_ms | proc_cpu_ms | cpu_util_pct | gc_cycles | gc_total_pause_ms | speedup_vs_seq | efficiency_pct |\n");
+    md.append("|---|---:|---:|---:|---:|---:|---:|---:|---:|\n");
 
         // sequential row: use baselineWall and seqProcCpu
-        double seqCpuUtil = (seqProcCpu > 0.0 && baselineWall > 0.0) ? (seqProcCpu / (baselineWall * availableProcessors) * 100.0) : 0.0;
+    double seqCpuUtil = (seqProcCpu > 0.0 && baselineWall > 0.0) ? (seqProcCpu / (baselineWall * availableProcessors) * 100.0) : 0.0;
         String seqSpeedLabel = "1.000 (baseline)";
-        md.append(String.format(Locale.US, "| %s | %d | %.6f | %.6f | %.2f | %s | %.2f |\n", "sequential", 1, baselineWall, seqProcCpu, seqCpuUtil, seqSpeedLabel, 100.0));
+    md.append(String.format(Locale.US, "| %s | %d | %.3f | %.3f | %.2f | %d | %d | %s | %.2f |\n", "sequential", 1, baselineWall, seqProcCpu, seqCpuUtil, seqRes.gcCountDelta, seqRes.gcTimeDeltaMs, seqSpeedLabel, 100.0));
 
         // helper to format speedup clearly: show x times and if <1 show reciprocal as "× slower"
         java.util.function.Function<Double,String> speedLabel = (s) -> {
@@ -218,16 +224,16 @@ public class ApplyFilters {
         };
 
         // manual
-        md.append(String.format(Locale.US, "| %s | %d | %.6f | %.6f | %.2f | %s | %.2f |\n", "manual", numThreads, parallelWall, parallelProcCpu, parallelCpuUtil, speedLabel.apply(speedup), efficiency));
+    md.append(String.format(Locale.US, "| %s | %d | %.3f | %.3f | %.2f | %d | %d | %s | %.2f |\n", "manual", numThreads, parallelWall, parallelProcCpu, parallelCpuUtil, manualRes.gcCountDelta, manualRes.gcTimeDeltaMs, speedLabel.apply(speedup), efficiency));
 
         // pool
-        md.append(String.format(Locale.US, "| %s | %d | %.6f | %.6f | %.2f | %s | %.2f |\n", "pool", numThreads, poolWall, poolProcCpu, poolCpuUtil, speedLabel.apply(speedupPool), efficiencyPool));
+    md.append(String.format(Locale.US, "| %s | %d | %.3f | %.3f | %.2f | %d | %d | %s | %.2f |\n", "pool", numThreads, poolWall, poolProcCpu, poolCpuUtil, poolRes.gcCountDelta, poolRes.gcTimeDeltaMs, speedLabel.apply(speedupPool), efficiencyPool));
 
         // fork-join
-        md.append(String.format(Locale.US, "| %s | %d | %.6f | %.6f | %.2f | %s | %.2f |\n", "fork-join", numThreads, forkWall, forkProcCpu, forkCpuUtil, speedLabel.apply(speedupFork), efficiencyFork));
+    md.append(String.format(Locale.US, "| %s | %d | %.3f | %.3f | %.2f | %d | %d | %s | %.2f |\n", "fork-join", numThreads, forkWall, forkProcCpu, forkCpuUtil, fjRes.gcCountDelta, fjRes.gcTimeDeltaMs, speedLabel.apply(speedupFork), efficiencyFork));
 
         // completablefuture
-        md.append(String.format(Locale.US, "| %s | %d | %.6f | %.6f | %.2f | %s | %.2f |\n", "completablefuture", numThreads, cfWall, cfProcCpu, cfCpuUtil, speedLabel.apply(speedupCf), efficiencyCf));
+    md.append(String.format(Locale.US, "| %s | %d | %.3f | %.3f | %.2f | %d | %d | %s | %.2f |\n", "completablefuture", numThreads, cfWall, cfProcCpu, cfCpuUtil, cfRes.gcCountDelta, cfRes.gcTimeDeltaMs, speedLabel.apply(speedupCf), efficiencyCf));
 
         Path mdPath = Paths.get("benchmark_report.md");
         try {
@@ -240,13 +246,17 @@ public class ApplyFilters {
 
     // Small helper to return measured results
     static class MeasResult {
-        double medianWall;
-        double medianProc;
+        double medianWall; // ms
+        double medianProc; // ms
         Color[][] sampleOut;
-        MeasResult(double medianWall, double medianProc, Color[][] sampleOut) {
+        long gcCountDelta; // number of GC collections during measured trials
+        long gcTimeDeltaMs; // total GC pause time during measured trials (ms)
+        MeasResult(double medianWall, double medianProc, Color[][] sampleOut, long gcCountDelta, long gcTimeDeltaMs) {
             this.medianWall = medianWall;
             this.medianProc = medianProc;
             this.sampleOut = sampleOut;
+            this.gcCountDelta = gcCountDelta;
+            this.gcTimeDeltaMs = gcTimeDeltaMs;
         }
     }
 
@@ -255,6 +265,15 @@ public class ApplyFilters {
         double[] walls = new double[trials];
         double[] procs = new double[trials];
         Color[][] lastOut = null;
+        // Capture GC counts/times before the measured runs
+        long gcCountBefore = 0L;
+        long gcTimeBefore = 0L;
+        for (GarbageCollectorMXBean b : ManagementFactory.getGarbageCollectorMXBeans()) {
+            long c = b.getCollectionCount();
+            long t = b.getCollectionTime();
+            if (c > 0) gcCountBefore += c;
+            if (t > 0) gcTimeBefore += t;
+        }
         for (int i = 0; i < warmup; i++) {
             try { System.gc(); Thread.sleep(50); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
             task.get();
@@ -266,8 +285,8 @@ public class ApplyFilters {
             Color[][] out = task.get();
             long e = System.nanoTime();
             long procAfter = osBean != null ? osBean.getProcessCpuTime() : -1L;
-            double wall = (e - s) / 1e9;
-            double proc = (procBefore >= 0 && procAfter >= procBefore) ? (procAfter - procBefore) / 1e9 : 0.0;
+            double wall = (e - s) / 1e6; // ms
+            double proc = (procBefore >= 0 && procAfter >= procBefore) ? (procAfter - procBefore) / 1e6 : 0.0; // ms
             walls[t] = wall;
             procs[t] = proc;
             lastOut = out;
@@ -276,6 +295,17 @@ public class ApplyFilters {
         Arrays.sort(procs);
         double medianWall = walls[trials/2];
         double medianProc = procs[trials/2];
-        return new MeasResult(medianWall, medianProc, lastOut);
+        // Capture GC counts/times after the measured runs and compute deltas
+        long gcCountAfter = 0L;
+        long gcTimeAfter = 0L;
+        for (GarbageCollectorMXBean b : ManagementFactory.getGarbageCollectorMXBeans()) {
+            long c = b.getCollectionCount();
+            long t = b.getCollectionTime();
+            if (c > 0) gcCountAfter += c;
+            if (t > 0) gcTimeAfter += t;
+        }
+        long gcCountDelta = gcCountAfter - gcCountBefore;
+        long gcTimeDeltaMs = gcTimeAfter - gcTimeBefore; // already in ms
+        return new MeasResult(medianWall, medianProc, lastOut, gcCountDelta, gcTimeDeltaMs);
     }
 }
