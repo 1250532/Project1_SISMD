@@ -1,3 +1,14 @@
+error id: file://<WORKSPACE>/src/ApplyFilters.java:java/lang/System#out.
+file://<WORKSPACE>/src/ApplyFilters.java
+empty definition using pc, found symbol in pc: java/lang/System#out.
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 493
+uri: file://<WORKSPACE>/src/ApplyFilters.java
+text:
+```scala
 import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
@@ -7,8 +18,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.awt.Color;
-import java.util.function.Supplier;
-import java.util.Arrays;
 
 public class ApplyFilters {
 
@@ -16,13 +25,13 @@ public class ApplyFilters {
         Locale.setDefault(Locale.US);
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Insert the name of the file path you would like to use.");
+        System.@@out.println("Insert the name of the file path you would like to use.");
         String filePath = input.nextLine();
         input.close();
 
         Filters filters = new Filters(filePath);
 
-    int availableProcessors = Runtime.getRuntime().availableProcessors();
+        int availableProcessors = Runtime.getRuntime().availableProcessors();
         long maxMemory = Runtime.getRuntime().maxMemory();
         System.out.printf("Available processors (cores): %d\n", availableProcessors);
         System.out.printf("Max memory (bytes): %d (%.2f MB)\n", maxMemory, maxMemory / 1024.0 / 1024.0);
@@ -33,16 +42,17 @@ public class ApplyFilters {
     if (platformBean instanceof OperatingSystemMXBean) osBean = (OperatingSystemMXBean) platformBean;
     final OperatingSystemMXBean osBeanFinal = osBean;
 
-        // Use warmup + multiple trials to get stable timings (median)
-        final int WARMUP = 3;
-        final int TRIALS = 7;
-
-        Supplier<Color[][]> seqSupplier = () -> filters.histogramEqualizedImage(128);
-        MeasResult seqRes = measureImpl("sequential", seqSupplier, osBeanFinal, WARMUP, TRIALS, 1);
-        double baselineWall = seqRes.medianWall;
-        double seqProcCpu = seqRes.medianProc;
-        Color[][] seqOut = seqRes.sampleOut;
-        System.out.printf(Locale.US, "Sequential median wall time: %.6f s, proc_cpu=%.6f s\n", baselineWall, seqProcCpu);
+        // Single-run sequential measurement (no trials)
+    System.out.println("Running sequential (single run)...");
+    try { System.gc(); Thread.sleep(100); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
+    long seqProcBefore = osBeanFinal != null ? osBeanFinal.getProcessCpuTime() : -1L;
+    long seqStart = System.nanoTime();
+    Color[][] seqOut = filters.histogramEqualizedImage(128);
+        long seqEnd = System.nanoTime();
+        long seqProcAfter = osBeanFinal != null ? osBeanFinal.getProcessCpuTime() : -1L;
+        double baselineWall = (seqEnd - seqStart) / 1e9;
+        double seqProcCpu = (seqProcBefore >= 0 && seqProcAfter >= seqProcBefore) ? (seqProcAfter - seqProcBefore) / 1e9 : 0.0;
+        System.out.printf(Locale.US, "Sequential wall time: %.6f s, proc_cpu=%.6f s\n", baselineWall, seqProcCpu);
 
     // End-to-end run (compute + write)
     System.out.println("Running one end-to-end (compute + write) run...");
@@ -51,17 +61,19 @@ public class ApplyFilters {
     long end = System.nanoTime();
     System.out.printf("End-to-end wall time: %.4f s\n", (end - start) / 1e9);
 
-    // Run parallel manual-thread implementation and compare
-    // default to 6 threads (but don't exceed available processors)
-    int numThreads = Math.min(6, availableProcessors);
+        // Run parallel manual-thread implementation and compare
+        int numThreads = availableProcessors; // default to number of cores
         System.out.printf("\nRunning parallel manual-thread version with %d threads...\n", numThreads);
-    Supplier<Color[][]> manualSupplier = () -> filters.histogramEqualizedImageParallel(128, numThreads);
-    MeasResult manualRes = measureImpl("manual", manualSupplier, osBeanFinal, WARMUP, TRIALS, availableProcessors);
-    double parallelWall = manualRes.medianWall;
-    double parallelProcCpu = manualRes.medianProc;
+    try { System.gc(); Thread.sleep(100); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
+    long pProcBefore = osBeanFinal != null ? osBeanFinal.getProcessCpuTime() : -1L;
+    long pStart = System.nanoTime();
+    Color[][] parallelOut = filters.histogramEqualizedImageParallel(128, numThreads);
+    long pEnd = System.nanoTime();
+    long pProcAfter = osBean != null ? osBean.getProcessCpuTime() : -1L;
+    double parallelWall = (pEnd - pStart) / 1e9;
+    double parallelProcCpu = (pProcBefore >= 0 && pProcAfter >= pProcBefore) ? (pProcAfter - pProcBefore) / 1e9 : 0.0;
     double parallelCpuUtil = (parallelProcCpu > 0.0 && parallelWall > 0.0) ? (parallelProcCpu / (parallelWall * availableProcessors) * 100.0) : 0.0;
-    Color[][] parallelOut = manualRes.sampleOut;
-    System.out.printf("Parallel (manual-threads) median wall time: %.6f s, proc_cpu=%.6f s, cpu_util=%.2f%%\n", parallelWall, parallelProcCpu, parallelCpuUtil);
+    System.out.printf("Parallel (manual-threads) wall time: %.6f s, proc_cpu=%.6f s, cpu_util=%.2f%%\n", parallelWall, parallelProcCpu, parallelCpuUtil);
 
     double speedup = baselineWall / parallelWall;
     double efficiency = speedup / (double) numThreads * 100.0; // percentage
@@ -70,13 +82,16 @@ public class ApplyFilters {
 
         // Run thread-pool implementation
         System.out.printf("\nRunning thread-pool version with %d threads...\n", numThreads);
-    Supplier<Color[][]> poolSupplier = () -> filters.histogramEqualizedImageThreadPool(128, numThreads);
-    MeasResult poolRes = measureImpl("pool", poolSupplier, osBeanFinal, WARMUP, TRIALS, availableProcessors);
-    double poolWall = poolRes.medianWall;
-    double poolProcCpu = poolRes.medianProc;
+    try { System.gc(); Thread.sleep(100); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
+    long tpProcBefore = osBeanFinal != null ? osBeanFinal.getProcessCpuTime() : -1L;
+    long tpStart = System.nanoTime();
+    Color[][] poolOut = filters.histogramEqualizedImageThreadPool(128, numThreads);
+    long tpEnd = System.nanoTime();
+    long tpProcAfter = osBean != null ? osBean.getProcessCpuTime() : -1L;
+    double poolWall = (tpEnd - tpStart) / 1e9;
+    double poolProcCpu = (tpProcBefore >= 0 && tpProcAfter >= tpProcBefore) ? (tpProcAfter - tpProcBefore) / 1e9 : 0.0;
     double poolCpuUtil = (poolProcCpu > 0.0 && poolWall > 0.0) ? (poolProcCpu / (poolWall * availableProcessors) * 100.0) : 0.0;
-    Color[][] poolOut = poolRes.sampleOut;
-    System.out.printf("Parallel (thread-pool) median wall time: %.6f s, proc_cpu=%.6f s, cpu_util=%.2f%%\n", poolWall, poolProcCpu, poolCpuUtil);
+    System.out.printf("Parallel (thread-pool) wall time: %.6f s, proc_cpu=%.6f s, cpu_util=%.2f%%\n", poolWall, poolProcCpu, poolCpuUtil);
 
     double speedupPool = baselineWall / poolWall;
     double efficiencyPool = speedupPool / (double) numThreads * 100.0;
@@ -89,15 +104,18 @@ public class ApplyFilters {
 
     // Fork/Join implementation measurement
     System.out.printf("\nRunning Fork/Join version with %d parallelism...\n", numThreads);
-    Supplier<Color[][]> fjSupplier = () -> filters.histogramEqualizedImageForkJoin(128, numThreads);
-    MeasResult fjRes = measureImpl("fork-join", fjSupplier, osBeanFinal, WARMUP, TRIALS, availableProcessors);
-        double forkWall = fjRes.medianWall;
-        double forkProcCpu = fjRes.medianProc;
+    try { System.gc(); Thread.sleep(100); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
+    long fjBefore = osBeanFinal != null ? osBeanFinal.getProcessCpuTime() : -1L;
+    long fjStart = System.nanoTime();
+    Color[][] forkOut = filters.histogramEqualizedImageForkJoin(128, numThreads);
+        long fjEnd = System.nanoTime();
+        long fjAfter = osBean != null ? osBean.getProcessCpuTime() : -1L;
+        double forkWall = (fjEnd - fjStart) / 1e9;
+        double forkProcCpu = (fjBefore >= 0 && fjAfter >= fjBefore) ? (fjAfter - fjBefore) / 1e9 : 0.0;
         double forkCpuUtil = (forkProcCpu > 0.0 && forkWall > 0.0) ? (forkProcCpu / (forkWall * availableProcessors) * 100.0) : 0.0;
-        Color[][] forkOut = fjRes.sampleOut;
         double speedupFork = baselineWall / forkWall;
         double efficiencyFork = speedupFork / (double) numThreads * 100.0;
-        System.out.printf("Fork/Join median wall time: %.6f s, proc_cpu=%.6f s, cpu_util=%.2f%%\n", forkWall, forkProcCpu, forkCpuUtil);
+        System.out.printf("Fork/Join wall time: %.6f s, proc_cpu=%.6f s, cpu_util=%.2f%%\n", forkWall, forkProcCpu, forkCpuUtil);
         System.out.printf("Speedup (sequential / fork-join): %.3f\n", speedupFork);
         System.out.printf("Efficiency (speedup / threads): %.3f%%\n", efficiencyFork);
 
@@ -133,15 +151,18 @@ public class ApplyFilters {
 
     // CompletableFuture-based implementation measurement (single run)
     System.out.printf("\nRunning CompletableFuture version with %d threads...\n", numThreads);
-    Supplier<Color[][]> cfSupplier = () -> filters.histogramEqualizedImageCompletableFutures(128, numThreads);
-    MeasResult cfRes = measureImpl("completablefuture", cfSupplier, osBeanFinal, WARMUP, TRIALS, availableProcessors);
-    double cfWall = cfRes.medianWall;
-    double cfProcCpu = cfRes.medianProc;
+    try { System.gc(); Thread.sleep(100); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
+    long cfProcBefore = osBeanFinal != null ? osBeanFinal.getProcessCpuTime() : -1L;
+    long cfStart = System.nanoTime();
+    Color[][] cfOut = filters.histogramEqualizedImageCompletableFutures(128, numThreads);
+    long cfEnd = System.nanoTime();
+    long cfProcAfter = osBeanFinal != null ? osBeanFinal.getProcessCpuTime() : -1L;
+    double cfWall = (cfEnd - cfStart) / 1e9;
+    double cfProcCpu = (cfProcBefore >= 0 && cfProcAfter >= cfProcBefore) ? (cfProcAfter - cfProcBefore) / 1e9 : 0.0;
     double cfCpuUtil = (cfProcCpu > 0.0 && cfWall > 0.0) ? (cfProcCpu / (cfWall * availableProcessors) * 100.0) : 0.0;
     double speedupCf = baselineWall / cfWall;
     double efficiencyCf = speedupCf / (double) numThreads * 100.0;
-    Color[][] cfOut = cfRes.sampleOut;
-    System.out.printf("CompletableFuture median wall time: %.6f s, proc_cpu=%.6f s, cpu_util=%.2f%%\n", cfWall, cfProcCpu, cfCpuUtil);
+    System.out.printf("CompletableFuture wall time: %.6f s, proc_cpu=%.6f s, cpu_util=%.2f%%\n", cfWall, cfProcCpu, cfCpuUtil);
     System.out.printf("Speedup (sequential / completablefuture): %.3f\n", speedupCf);
     System.out.printf("Efficiency (speedup / threads): %.3f%%\n", efficiencyCf);
 
@@ -153,8 +174,6 @@ public class ApplyFilters {
             if (!seqOut[x][y].equals(cfOut[x][y])) { eqCf = false; break outer4; }
         }
     }
-
-    
     System.out.println("CompletableFuture output equals sequential output? " + (eqCf ? "YES" : "NO"));
 
         // Write benchmark_report.md with the results and speedup/efficiency columns
@@ -197,44 +216,11 @@ public class ApplyFilters {
         }
     }
 
-    // Small helper to return measured results
-    static class MeasResult {
-        double medianWall;
-        double medianProc;
-        Color[][] sampleOut;
-        MeasResult(double medianWall, double medianProc, Color[][] sampleOut) {
-            this.medianWall = medianWall;
-            this.medianProc = medianProc;
-            this.sampleOut = sampleOut;
-        }
-    }
-
-    // measureImpl: run WARMUP warmups (ignored) and TRIALS measured runs; return median wall/proc and last output
-    static MeasResult measureImpl(String name, Supplier<Color[][]> task, OperatingSystemMXBean osBean, int warmup, int trials, int availableProcessors) {
-        double[] walls = new double[trials];
-        double[] procs = new double[trials];
-        Color[][] lastOut = null;
-        for (int i = 0; i < warmup; i++) {
-            try { System.gc(); Thread.sleep(50); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
-            task.get();
-        }
-        for (int t = 0; t < trials; t++) {
-            try { System.gc(); Thread.sleep(50); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
-            long procBefore = osBean != null ? osBean.getProcessCpuTime() : -1L;
-            long s = System.nanoTime();
-            Color[][] out = task.get();
-            long e = System.nanoTime();
-            long procAfter = osBean != null ? osBean.getProcessCpuTime() : -1L;
-            double wall = (e - s) / 1e9;
-            double proc = (procBefore >= 0 && procAfter >= procBefore) ? (procAfter - procBefore) / 1e9 : 0.0;
-            walls[t] = wall;
-            procs[t] = proc;
-            lastOut = out;
-        }
-        Arrays.sort(walls);
-        Arrays.sort(procs);
-        double medianWall = walls[trials/2];
-        double medianProc = procs[trials/2];
-        return new MeasResult(medianWall, medianProc, lastOut);
-    }
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: java/lang/System#out.

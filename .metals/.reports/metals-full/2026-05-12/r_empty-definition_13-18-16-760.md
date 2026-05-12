@@ -1,3 +1,15 @@
+error id: file://<WORKSPACE>/src/Filters.java:_empty_/Utils#
+file://<WORKSPACE>/src/Filters.java
+empty definition using pc, found symbol in pc: _empty_/Utils#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 346
+uri: file://<WORKSPACE>/src/Filters.java
+text:
+```scala
+
 import java.awt.Color;
 import java.io.IOException;
 
@@ -14,12 +26,13 @@ public class Filters {
     // Constructor with filename for source image
     Filters(String filename) {
         this.file = filename;
-        image = Utils.loadImage(filename);
+        image = @@Utils.loadImage(filename);
     }
 
     
     public void HistogramFilter(String outputFile, int value) throws IOException {
         Color[][] tmp = histogramEqualizedImage(value);
+        int[] hist = new int[256];
         // Write the computed image to disk
         Utils.writeImage(tmp, outputFile);
     }
@@ -57,23 +70,17 @@ public class Filters {
             }
         }
 
-        // Build mapping table and precompute a shared Color palette to avoid per-pixel allocations
-        int[] map = new int[256];
-        for (int i = 0; i < 256; i++) {
-            double cdf = (double) cumulative[i] / (double) (total_pixels - cdfMin);
-            int newLum = (int) Math.round(255.0 * cdf);
-            if (newLum < 0) newLum = 0; if (newLum > 255) newLum = 255;
-            map[i] = newLum;
-        }
-        final Color[] palette = new Color[256];
-        for (int i = 0; i < 256; i++) palette[i] = new Color(map[i], map[i], map[i]);
-
-        // Fill output in-place using palette entries
+        // Change each pixel of the output image
         for (int i = 0; i < tmp.length; i++) {
             for (int j = 0; j < tmp[i].length; j++) {
                 Color pixel = tmp[i][j];
-                int lum = computeLuminosity(pixel.getRed(), pixel.getGreen(), pixel.getBlue());
-                    tmp[i][j] = palette[lum];
+                int r = pixel.getRed();
+                int g = pixel.getGreen();
+                int b = pixel.getBlue();
+                int lum = computeLuminosity(r, g, b);
+                double cdf = (double) cumulative[lum] / (double) (total_pixels - cdfMin);
+                int newLum = (int) Math.round(255.0 * cdf);
+                tmp[i][j] = new Color(newLum, newLum, newLum);
             }
         }
         return tmp;
@@ -109,7 +116,6 @@ public class Filters {
 
         if (numThreads <= 1) return histogramEqualizedImage(value);
 
-    Color[][] out = new Color[width][height];
     java.util.concurrent.ExecutorService pool = java.util.concurrent.Executors.newFixedThreadPool(numThreads);
     try {
         final int[][] localHists = new int[numThreads][256];
@@ -156,18 +162,18 @@ public class Filters {
             if (cumulative[i] != 0) { cdfMin = cumulative[i]; break; }
         }
 
-        // Build mapping table and palette (shared)
+        // Build mapping table
         int[] map = new int[256];
         for (int i = 0; i < 256; i++) {
             double cdf = (double) cumulative[i] / (double) (total_pixels - cdfMin);
             int newLum = (int) Math.round(255.0 * cdf);
-            if (newLum < 0) newLum = 0; if (newLum > 255) newLum = 255;
+            if (newLum < 0) newLum = 0;
+            if (newLum > 255) newLum = 255;
             map[i] = newLum;
         }
-        final Color[] palette = new Color[256];
-        for (int i = 0; i < 256; i++) palette[i] = new Color(map[i], map[i], map[i]);
 
-    // Phase 2: apply mapping in parallel
+        // Phase 2: apply mapping in parallel
+        Color[][] out = new Color[width][height];
         futures.clear();
         for (int t = 0; t < numThreads; t++) {
             final int tid = t;
@@ -178,7 +184,8 @@ public class Filters {
                     for (int y = 0; y < height; y++) {
                         Color pixel = tmp[x][y];
                         int lum = computeLuminosity(pixel.getRed(), pixel.getGreen(), pixel.getBlue());
-                                out[x][y] = palette[lum];
+                        int newLum = map[lum];
+                        out[x][y] = new Color(newLum, newLum, newLum);
                     }
                 }
             }));
@@ -288,10 +295,6 @@ public class Filters {
             map[i] = newLum;
         }
 
-        // Precompute palette for producer-consumer phase
-        final Color[] palette = new Color[256];
-        for (int i = 0; i < 256; i++) palette[i] = new Color(map[i], map[i], map[i]);
-
         // Phase 2: apply mapping with producer-consumer pattern (reuse queue/workers)
     // out is partitioned by x-range; each applier writes disjoint x-ranges so no locking is needed
     final Color[][] out = new Color[width][height];
@@ -299,6 +302,7 @@ public class Filters {
 
         Thread[] appliers = new Thread[numThreads];
         for (int t = 0; t < numThreads; t++) {
+            final int tid = t;
             appliers[t] = new Thread(() -> {
                 try {
                     while (true) {
@@ -308,7 +312,8 @@ public class Filters {
                             for (int y = 0; y < height; y++) {
                                 Color pixel = tmp[x][y];
                                 int lum = computeLuminosity(pixel.getRed(), pixel.getGreen(), pixel.getBlue());
-                                out[x][y] = palette[lum];
+                                int newLum = map[lum];
+                                out[x][y] = new Color(newLum, newLum, newLum);
                             }
                         }
                     }
@@ -382,7 +387,7 @@ public class Filters {
             }
         }
 
-    int[] hist = fjPool.invoke(new HistTask(0, width));
+        int[] hist = fjPool.invoke(new HistTask(0, width));
 
         int total_pixels = width * height;
         int[] cumulative = new int[256];
@@ -398,9 +403,6 @@ public class Filters {
             if (newLum < 0) newLum = 0; if (newLum > 255) newLum = 255;
             map[i] = newLum;
         }
-        // Precompute palette for Fork/Join apply phase
-        final Color[] palette = new Color[256];
-        for (int i = 0; i < 256; i++) palette[i] = new Color(map[i], map[i], map[i]);
 
         // RecursiveAction to apply mapping
         class ApplyTask extends java.util.concurrent.RecursiveAction {
@@ -414,7 +416,8 @@ public class Filters {
                         for (int y = 0; y < height; y++) {
                             Color p = tmp[x][y];
                             int lum = computeLuminosity(p.getRed(), p.getGreen(), p.getBlue());
-                            out[x][y] = palette[lum];
+                            int nl = map[lum];
+                            out[x][y] = new Color(nl, nl, nl);
                         }
                     }
                 } else {
@@ -426,7 +429,7 @@ public class Filters {
             }
         }
 
-    final Color[][] out = new Color[width][height];
+        final Color[][] out = new Color[width][height];
         try {
             fjPool.invoke(new ApplyTask(0, width, out));
         } finally {
@@ -447,8 +450,6 @@ public class Filters {
 
         if (numThreads <= 1) return histogramEqualizedImage(value);
 
-    // Pre-create output buffer so it is visible after the try/finally block
-    Color[][] out = new Color[width][height];
     java.util.concurrent.ExecutorService exec = java.util.concurrent.Executors.newFixedThreadPool(numThreads);
     try {
         int chunk = Math.max(1, width / (numThreads * 4));
@@ -494,11 +495,9 @@ public class Filters {
             if (newLum < 0) newLum = 0; if (newLum > 255) newLum = 255;
             map[i] = newLum;
         }
-        // Precompute palette for CompletableFuture phase
-        final Color[] palette = new Color[256];
-        for (int i = 0; i < 256; i++) palette[i] = new Color(map[i], map[i], map[i]);
 
-    // Phase 2: async apply mapping per chunk (use pre-created 'out')
+        // Phase 2: async apply mapping per chunk
+        Color[][] out = new Color[width][height];
         java.util.List<java.util.concurrent.CompletableFuture<Void>> applyFutures = new java.util.ArrayList<>();
         for (int x = 0; x < width; x += chunk) {
             final int sx = x;
@@ -508,7 +507,8 @@ public class Filters {
                     for (int y = 0; y < height; y++) {
                         Color p = tmp[xi][y];
                         int lum = computeLuminosity(p.getRed(), p.getGreen(), p.getBlue());
-                        out[xi][y] = palette[lum];
+                        int nl = map[lum];
+                        out[xi][y] = new Color(nl, nl, nl);
                     }
                 }
             }, exec));
@@ -526,3 +526,10 @@ public class Filters {
     }
 
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/Utils#

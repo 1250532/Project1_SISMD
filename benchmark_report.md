@@ -1,13 +1,13 @@
 # Benchmark report
 
-Generated: 2026-05-06T09:42:20.466356Z
+Generated: 2026-05-12T13:25:04.440782Z
 
 **Hardware:** cores=12, maxMemory=6144.00 MB
 
-| impl | threads | best_wall_s | proc_cpu_s | cpu_util_pct | speedup_vs_seq | efficiency_pct |
+| impl | threads | best_wall_ms | proc_cpu_ms | cpu_util_pct | speedup_vs_seq | efficiency_pct |
 |---|---:|---:|---:|---:|---:|---:|
-| sequential | 1 | 0.008613 | 0.011531 | 11.16 | 1.000 | 100.00 |
-| manual | 12 | 0.014071 | 0.091560 | 54.22 | 0.612 | 5.10 |
-| pool | 12 | 0.013099 | 0.112440 | 71.53 | 0.658 | 5.48 |
-| fork-join | 12 | 0.009657 | 0.081578 | 70.40 | 0.892 | 7.43 |
-| completablefuture | 12 | 0.021568 | 0.201704 | 77.93 | 0.399 | 3.33 |
+| sequential | 1 | 9.407 | 9.654 | 8.55 | 1.000 (baseline) | 100.00 |
+| manual | 6 | 5.807 | 12.066 | 17.31 | 1.620× | 27.00 |
+| pool | 6 | 4.152 | 10.355 | 20.78 | 2.266× | 37.76 |
+| fork-join | 6 | 4.750 | 12.564 | 22.04 | 1.980× | 33.00 |
+| completablefuture | 6 | 4.541 | 13.351 | 24.50 | 2.071× | 34.52 |

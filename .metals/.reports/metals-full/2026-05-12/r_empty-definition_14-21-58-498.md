@@ -1,3 +1,14 @@
+error id: file://<WORKSPACE>/src/ApplyFilters.java:local19
+file://<WORKSPACE>/src/ApplyFilters.java
+empty definition using pc, found symbol in pc: 
+found definition using semanticdb; symbol local19
+empty definition using fallback
+non-local guesses:
+
+offset: 2763
+uri: file://<WORKSPACE>/src/ApplyFilters.java
+text:
+```scala
 import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
@@ -55,7 +66,7 @@ public class ApplyFilters {
     // default to 6 threads (but don't exceed available processors)
     int numThreads = Math.min(6, availableProcessors);
         System.out.printf("\nRunning parallel manual-thread version with %d threads...\n", numThreads);
-    Supplier<Color[][]> manualSupplier = () -> filters.histogramEqualizedImageParallel(128, numThreads);
+    Supplier<Color[][]> manualSupplier@@ = () -> filters.histogramEqualizedImageParallel(128, numThreads);
     MeasResult manualRes = measureImpl("manual", manualSupplier, osBeanFinal, WARMUP, TRIALS, availableProcessors);
     double parallelWall = manualRes.medianWall;
     double parallelProcCpu = manualRes.medianProc;
@@ -238,3 +249,10 @@ public class ApplyFilters {
         return new MeasResult(medianWall, medianProc, lastOut);
     }
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: 
