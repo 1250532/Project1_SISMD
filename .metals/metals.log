@@ -4155,3 +4155,1397 @@ WARNING: Unmatched cancel notification for request id 26
 2026.05.12 14:26:41 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
 2026.05.12 14:26:41 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
 2026.05.12 14:41:59 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 14:42:18 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 15:45:54 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Utils.java
+2026.05.12 15:46:27 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Utils.java. Using fallback presentation compiler.
+2026.05.12 15:46:27 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Utils.java
+2026.05.12 15:46:27 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Utils.java. Using fallback presentation compiler.
+2026.05.12 15:46:27 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Utils.java. Using fallback presentation compiler.
+2026.05.12 15:46:27 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Utils.java. Using fallback presentation compiler.
+2026.05.12 15:46:27 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Utils.java
+2026.05.12 15:46:27 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Utils.java. Using fallback presentation compiler.
+2026.05.12 15:46:41 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 15:46:41 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 15:46:41 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Utils.java. Using fallback presentation compiler.
+2026.05.12 15:47:23 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 15:47:23 INFO  Created report: Optional[file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java]
+2026.05.12 15:47:23 INFO  empty definition using pc, found symbol in pc: _empty_/Utils#computeLuminosityHistogram# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_15-47-23-824.md")
+2026.05.12 15:47:23 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 15:47:23 INFO  Created report: Optional[file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java]
+2026.05.12 15:47:23 INFO  empty definition using pc, found symbol in pc: _empty_/Utils#writeHistogramPNG# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_15-47-24-142.md")
+2026.05.12 15:47:30 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 15:47:52 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 15:47:52 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 15:47:52 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 15:47:52 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 15:53:56 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Utils.java
+2026.05.12 15:53:56 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 16:29:53 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:29:53 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 16:29:53 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:29:53 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:38:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Utils.java. Using fallback presentation compiler.
+2026.05.12 16:38:51 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Utils.java
+2026.05.12 16:38:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Utils.java. Using fallback presentation compiler.
+2026.05.12 16:38:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 16:38:52 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 16:38:52 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 16:38:54 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:38:55 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:38:55 INFO  Created report: Optional[file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java]
+2026.05.12 16:38:55 INFO  empty definition using pc, found symbol in pc: java/lang/Math# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_16-38-55-622.md")
+2026.05.12 16:38:56 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:38:56 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:38:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:38:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:38:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:38:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:38:58 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:38:59 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:00 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:00 INFO  empty definition using pc, found symbol in pc: _empty_/Filters#histogramEqualizedImageParallel# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-02/r_empty-definition_16-50-53-170.md")
+2026.05.12 16:39:00 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 16:39:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 16:39:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 16:39:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:01 INFO  Created report: Optional[file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java]
+2026.05.12 16:39:01 INFO  empty definition using pc, found symbol in pc: _empty_/Filters#histogramEqualizedImageThreadPool# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_16-39-01-731.md")
+2026.05.12 16:39:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:02 INFO  empty definition using pc, found symbol in pc: _empty_/Filters#histogramEqualizedImageCompletableFutures# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_13-28-51-614.md")
+2026.05.12 16:39:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 16:39:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:02 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 16:39:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+May 12, 2026 4:39:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_294d9e2d-3937-4b55-9aaf-d1efa14ea3bc/0#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.12 16:39:30 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:39 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:39 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:41 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:41 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:42 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:39:42 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:05 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:10 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 16:40:10 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:10 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:15 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:15 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:15 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:17 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:17 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:19 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:19 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:26 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:36 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:36 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:41 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:42 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:40:43 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:09 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 16:41:09 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 16:41:09 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 16:41:10 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 16:41:11 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:12 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 16:41:12 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:11 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:22 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:26 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 16:41:26 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 16:41:26 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 16:41:43 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 16:41:47 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:47 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 16:41:47 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:47 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:49 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:50 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:50 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:55 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:55 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:56 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:56 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:56 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:56 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:56 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:56 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:58 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:41:59 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:05 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 16:42:05 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:32 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:32 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 16:42:32 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:32 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:32 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:35 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:35 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:37 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 16:42:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:42:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:43:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:43:02 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 16:43:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 16:43:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 17:04:23 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 17:55:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 17:55:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 17:58:52 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 17:58:52 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 18:13:11 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 18:13:11 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 18:13:11 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 18:13:11 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 18:13:53 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 18:13:53 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 18:13:53 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 18:13:53 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 18:27:58 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 18:27:59 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 18:57:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 18:57:59 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 18:57:59 INFO  empty definition using pc, found symbol in pc: java/awt/Color# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-02/r_empty-definition_16-08-01-809.md")
+2026.05.12 18:58:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 18:58:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 18:58:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 18:58:01 INFO  empty definition using pc, found symbol in pc: java/awt/Color# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-02/r_empty-definition_16-08-01-809.md")
+2026.05.12 18:58:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 18:58:01 INFO  empty definition using pc, found symbol in pc: java/awt/Color# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-02/r_empty-definition_16-08-01-809.md")
+2026.05.12 18:58:09 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 18:58:09 INFO  empty definition using pc, found symbol in pc: java/awt/Color# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-02/r_empty-definition_16-08-01-809.md")
+2026.05.12 18:58:09 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 18:58:09 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 18:58:09 INFO  empty definition using pc, found symbol in pc: java/lang/Math# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_16-38-55-622.md")
+2026.05.12 19:01:30 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:01:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:01:31 INFO  empty definition using pc, found symbol in pc: java/awt/Color# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-02/r_empty-definition_16-08-01-809.md")
+2026.05.12 19:01:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:01:31 INFO  empty definition using pc, found symbol in pc: java/awt/Color# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-02/r_empty-definition_16-08-01-809.md")
+2026.05.12 19:01:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:01:31 INFO  empty definition using pc, found symbol in pc: java/awt/Color# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-02/r_empty-definition_16-08-01-809.md")
+2026.05.12 19:01:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:01:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:01:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:01:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:01:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:01:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:01:33 INFO  empty definition using pc, found symbol in pc: java/lang/System#out. (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_13-33-38-377.md")
+2026.05.12 19:01:46 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:01:46 INFO  empty definition using pc, found symbol in pc: java/awt/Color# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-02/r_empty-definition_16-08-01-809.md")
+2026.05.12 19:01:46 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:01:46 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:01:46 INFO  empty definition using pc, found symbol in pc: java/lang/Math# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_16-38-55-622.md")
+May 12, 2026 7:04:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_8b87c79c-03fe-4602-9f17-39e63e55381e/4#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.12 19:06:19 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:06:19 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:06:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:06:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:06:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:06:37 INFO  empty definition using pc, found symbol in pc: java/lang/System#out. (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_13-33-38-377.md")
+2026.05.12 19:06:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:06:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:06:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:06:38 INFO  Created report: Optional[file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java]
+2026.05.12 19:06:38 INFO  empty definition using pc, found symbol in pc: java/lang/Thread# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-06-38-339.md")
+2026.05.12 19:06:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:06:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:06:38 INFO  empty definition using pc, found symbol in pc: java/lang/System#out. (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_13-33-38-377.md")
+2026.05.12 19:06:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:06:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:06:38 INFO  empty definition using pc, found symbol in pc: java/lang/Thread# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-06-38-339.md")
+2026.05.12 19:06:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:06:38 INFO  empty definition using pc, found symbol in pc: java/lang/Thread# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-06-38-339.md")
+2026.05.12 19:06:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:06:38 INFO  empty definition using pc, found symbol in pc: java/lang/Thread# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-06-38-339.md")
+2026.05.12 19:06:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 19:06:38 INFO  empty definition using pc, found symbol in pc: java/lang/Thread# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-06-38-339.md")
+2026.05.12 19:06:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+May 12, 2026 7:18:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_10fc5fac-c675-48df-993e-7db6b22f1bfd/0#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.12 19:30:21 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java
+2026.05.12 19:30:21 WARN  Running javac-semanticdb failed for file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Output:
+
+2026.05.12 19:30:22 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 19:30:22 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java
+2026.05.12 19:32:26 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:34:20 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 19:34:20 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java
+2026.05.12 19:34:20 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 19:34:20 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 19:34:20 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 19:34:20 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java
+2026.05.12 19:34:20 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 19:34:20 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 19:34:21 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 19:43:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 19:43:01 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java
+2026.05.12 19:43:01 INFO  Created report: Optional[file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java]
+2026.05.12 19:43:01 INFO  QDox parse error in file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_qdox-error_19-43-01-283.md")
+2026.05.12 19:43:01 WARN  Running javac-semanticdb failed for file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Output:
+
+2026.05.12 19:43:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 19:46:54 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:46:54 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:46:54 INFO  Created report: Optional[file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java]
+2026.05.12 19:46:54 INFO  empty definition using pc, found symbol in pc: java/lang/Thread# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-46-54-697.md")
+2026.05.12 19:46:54 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:46:55 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:46:56 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:46:56 INFO  empty definition using pc, found symbol in pc: java/lang/Thread# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-46-54-697.md")
+2026.05.12 19:46:56 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:46:56 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:01 INFO  Created report: Optional[file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java]
+2026.05.12 19:47:01 INFO  empty definition using pc, found symbol in pc: java/lang/Thread#join(+2). (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-47-01-827.md")
+2026.05.12 19:47:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:02 INFO  empty definition using pc, found symbol in pc: java/lang/Thread# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-46-54-697.md")
+2026.05.12 19:47:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:01 INFO  empty definition using pc, found symbol in pc: java/lang/Thread# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-46-54-697.md")
+2026.05.12 19:47:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:03 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:04 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:04 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:04 INFO  empty definition using pc, found symbol in pc: java/lang/Thread# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-46-54-697.md")
+2026.05.12 19:47:04 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:04 INFO  empty definition using pc, found symbol in pc: java/lang/Thread#join(+2). (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-47-01-827.md")
+2026.05.12 19:47:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:35 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:35 INFO  empty definition using pc, found symbol in pc: java/lang/Thread#join(+2). (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-47-01-827.md")
+2026.05.12 19:47:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:38 INFO  Created report: Optional[file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java]
+2026.05.12 19:47:38 INFO  empty definition using pc, found symbol in pc: java/util/concurrent/BlockingQueue#take(). (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-47-38-579.md")
+2026.05.12 19:47:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:42 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:42 INFO  empty definition using pc, found symbol in pc: java/lang/Thread#join(+2). (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-47-01-827.md")
+2026.05.12 19:47:42 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:42 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:47:42 INFO  empty definition using pc, found symbol in pc: java/lang/Thread# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-46-54-697.md")
+2026.05.12 19:47:42 INFO  empty definition using pc, found symbol in pc: java/lang/Thread#join(+2). (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-47-01-827.md")
+May 12, 2026 7:50:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "jdt://contents/java.base/java.lang/Thread.java?%3DProject1_SISMD_5610838c%2F%5C%2FUsers%5C%2Fleonardocosta%5C%2F.sdkman%5C%2Fcandidates%5C%2Fjava%5C%2F17.0.16-amzn%5C%2Flib%5C%2Fjrt-fs.jar%60java.base%3D%2Fjavadoc_location%3D%2Fhttps%3A%5C%2F%5C%2Fdocs.oracle.com%5C%2Fen%5C%2Fjava%5C%2Fjavase%5C%2F17%5C%2Fdocs%5C%2Fapi%5C%2F%3D%2F%3Cjava.lang%28Thread.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "jdt" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.12 19:52:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:52:34 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 19:52:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:52:34 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:52:39 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:52:44 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:52:53 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:52:56 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:53:00 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:53:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:53:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:53:45 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:53:48 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:53:59 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:55:48 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:55:48 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:55:48 INFO  empty definition using pc, found symbol in pc: java/util/concurrent/BlockingQueue#take(). (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-47-38-579.md")
+May 12, 2026 7:56:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_076ba821-0c49-4fd3-9249-372cb732f449/2#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 7:56:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_076ba821-0c49-4fd3-9249-372cb732f449/1#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 7:58:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_076ba821-0c49-4fd3-9249-372cb732f449/3#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.12 19:58:12 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:58:12 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:58:12 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:58:12 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:58:13 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:58:26 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:58:26 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 19:59:58 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 19:59:58 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:00:28 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:00:28 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:00:28 INFO  Created report: Optional[file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java]
+2026.05.12 20:00:28 INFO  empty definition using pc, found symbol in pc: java/awt/Color# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_20-00-28-505.md")
+2026.05.12 20:00:30 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:00:31 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:00:32 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:00:32 INFO  empty definition using pc, found symbol in pc: java/awt/Color# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_20-00-28-505.md")
+2026.05.12 20:00:32 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:00:35 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:00:36 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:00:37 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:00:43 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:00:43 INFO  empty definition using pc, found symbol in pc: _empty_/Utils# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_13-18-16-760.md")
+2026.05.12 20:02:18 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:02:26 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+May 12, 2026 8:04:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_7880a0bd-5e1e-424e-b90c-50ba07b99e97/3#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:04:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_7880a0bd-5e1e-424e-b90c-50ba07b99e97/0#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:04:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_7880a0bd-5e1e-424e-b90c-50ba07b99e97/1#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:05:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_7880a0bd-5e1e-424e-b90c-50ba07b99e97/2#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:05:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_7880a0bd-5e1e-424e-b90c-50ba07b99e97/3#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:06:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_7880a0bd-5e1e-424e-b90c-50ba07b99e97/2#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:06:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_7880a0bd-5e1e-424e-b90c-50ba07b99e97/3#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:07:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_7880a0bd-5e1e-424e-b90c-50ba07b99e97/2#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:07:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_7880a0bd-5e1e-424e-b90c-50ba07b99e97/3#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.12 20:07:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:07:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:07:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:07:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+May 12, 2026 8:08:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_7880a0bd-5e1e-424e-b90c-50ba07b99e97/5#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.12 20:10:40 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 20:10:40 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:11:55 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:11:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:11:57 INFO  empty definition using pc, found symbol in pc: java/lang/Thread# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-46-54-697.md")
+2026.05.12 20:11:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:11:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:11:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:11:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:11:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:11:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:11:58 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:11:58 INFO  empty definition using pc, found symbol in pc: java/awt/Color# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_20-00-28-505.md")
+2026.05.12 20:12:09 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:12:09 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:12:09 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+May 12, 2026 8:17:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_6a4f3b3f-b694-4191-afd4-c7eef7c2d442/0#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.12 20:19:09 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:19:09 INFO  Created report: Optional[file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java]
+2026.05.12 20:19:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_20-19-09-114.md")
+May 12, 2026 8:19:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_6a4f3b3f-b694-4191-afd4-c7eef7c2d442/3#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:20:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_6a4f3b3f-b694-4191-afd4-c7eef7c2d442/4#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.12 20:24:59 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 20:24:59 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:25:33 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:25:35 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:25:35 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:25:38 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:25:54 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+May 12, 2026 8:28:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_afa878ff-b6f7-43f0-b0e8-ffdd8a825c36/0#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:29:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_afa878ff-b6f7-43f0-b0e8-ffdd8a825c36/1#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:29:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_afa878ff-b6f7-43f0-b0e8-ffdd8a825c36/2#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:29:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_afa878ff-b6f7-43f0-b0e8-ffdd8a825c36/3#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.12 20:30:12 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:30:39 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:36:57 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 20:36:57 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:38:17 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:38:17 INFO  Created report: Optional[file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java]
+2026.05.12 20:38:17 INFO  empty definition using pc, found symbol in pc: java/util/concurrent/CompletableFuture# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_20-38-17-055.md")
+2026.05.12 20:38:27 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:38:36 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:38:36 INFO  empty definition using pc, found symbol in pc: java/lang/Thread#join(+2). (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-47-01-827.md")
+2026.05.12 20:38:40 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:38:40 INFO  empty definition using pc, found symbol in pc: java/util/concurrent/CompletableFuture# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_20-38-17-055.md")
+2026.05.12 20:38:40 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:38:40 INFO  empty definition using pc, found symbol in pc: java/util/concurrent/CompletableFuture# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_20-38-17-055.md")
+2026.05.12 20:38:41 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:38:41 INFO  empty definition using pc, found symbol in pc: java/util/concurrent/CompletableFuture# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_20-38-17-055.md")
+May 12, 2026 8:39:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_19e95392-8a17-44c7-adfb-a3dec40ebe4e/1#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:41:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_19e95392-8a17-44c7-adfb-a3dec40ebe4e/2#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:41:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_19e95392-8a17-44c7-adfb-a3dec40ebe4e/3#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:41:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_19e95392-8a17-44c7-adfb-a3dec40ebe4e/4#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+May 12, 2026 8:42:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://f2bbb896-75ae-48c3-9a5b-fa0ae8703d21/response_19e95392-8a17-44c7-adfb-a3dec40ebe4e/5#%7B%22references%22%3A%5B%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.05.12 20:42:30 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:42:30 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:42:30 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:43:06 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:43:47 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:43:47 INFO  empty definition using pc, found symbol in pc: java/lang/Thread# (full report at: "/Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/.metals/.reports/metals-full/2026-05-12/r_empty-definition_19-46-54-697.md")
+2026.05.12 20:44:29 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 20:44:29 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 20:46:24 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 21:29:48 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java
+2026.05.12 21:29:49 WARN  Running javac-semanticdb failed for file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Output:
+
+2026.05.12 21:29:49 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 21:29:49 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 21:29:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 21:29:51 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java
+2026.05.12 21:29:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:29:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:29:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:29:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:29:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchmarkSequential.java. Using fallback presentation compiler.
+2026.05.12 21:29:51 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java
+2026.05.12 21:29:51 WARN  Running javac-semanticdb failed for file:///Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Output:
+
+2026.05.12 21:29:51 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 21:29:52 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 21:29:53 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 21:29:53 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 21:29:53 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 21:29:53 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 21:29:55 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java
+2026.05.12 21:29:55 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 21:30:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/BenchRunner.java. Using fallback presentation compiler.
+2026.05.12 21:30:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 21:30:01 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java
+2026.05.12 21:30:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 21:30:01 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/Filters.java. Using fallback presentation compiler.
+2026.05.12 21:30:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:30:02 WARN  no build target for: /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java
+2026.05.12 21:30:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.
+2026.05.12 21:30:02 INFO  no build target found for /Users/leonardocosta/Desktop/ISEP/2SEM/SISMD/Project1_SISMD/src/ApplyFilters.java. Using fallback presentation compiler.

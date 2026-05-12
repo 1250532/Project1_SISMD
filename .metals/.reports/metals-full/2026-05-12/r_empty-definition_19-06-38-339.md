@@ -1,3 +1,14 @@
+error id: file://<WORKSPACE>/src/ApplyFilters.java:java/lang/Thread#
+file://<WORKSPACE>/src/ApplyFilters.java
+empty definition using pc, found symbol in pc: java/lang/Thread#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 14282
+uri: file://<WORKSPACE>/src/ApplyFilters.java
+text:
+```scala
 import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
@@ -256,7 +267,7 @@ public class ApplyFilters {
         double[] procs = new double[trials];
         Color[][] lastOut = null;
         for (int i = 0; i < warmup; i++) {
-            try { System.gc(); Thread.sleep(50); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
+            try { System.gc(); @@Thread.sleep(50); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
             task.get();
         }
         for (int t = 0; t < trials; t++) {
@@ -279,3 +290,10 @@ public class ApplyFilters {
         return new MeasResult(medianWall, medianProc, lastOut);
     }
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: java/lang/Thread#
